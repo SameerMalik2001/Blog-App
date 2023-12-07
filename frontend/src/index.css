@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+
+  .ql-snow {
+    background-color: #ffffff;
+    color: #333333;
+  }
+
+  .ql-snow .ql-toolbar {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  .ql-snow .ql-toolbar button {
+    color: #555555;
+  }
+
+}
